@@ -1,3 +1,6 @@
+Note: This project is not affiliated with Cyber Power Systems (USA), Inc. but is
+just provided as a tool to interact with their products.
+
 This is a "library" to interace with CyberPower networked PDUs in pure Python
 without having to install anything external (system libraries, MIBs). To be
 honest it's really just a wrapper around a single pysnmp call, the rest is just
