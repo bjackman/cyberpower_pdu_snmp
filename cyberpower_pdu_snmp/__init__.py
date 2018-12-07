@@ -68,7 +68,7 @@ class CyberPowerPdu(object):
         # snmpset -v 1 -c private $IPADDR .1.3.6.1.4.1.3808.1.1.3.3.3.1.1.4.2 i 1
         #
         # In that command ".1.3.6.1.4.1.3808.1.1.3.3.3.1.1.4.2" is the
-        # masochistic name for "CPS-MIB::ePDUOutletControlOutletCommand.1" and
+        # masochistic name for "CPS-MIB::ePDUOutletControlOutletCommand.2" and
         # "1" is the masochistic name for "immediateOn"
         #
         # I figured out what that command would be by running this:
