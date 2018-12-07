@@ -83,7 +83,7 @@ class CyberPowerPdu(object):
         errorIndication, errorStatus, errorIndex, varBinds = next(
             setCmd(SnmpEngine(),
                    CommunityData('private'),
-                   UdpTransportTarget(('192.168.106.68', 161)),
+                   UdpTransportTarget((self.host, 161)),
                    ContextData(),
                    ObjectType(oid, Integer32(self.outlet_state_oids[target_state]))))
 
